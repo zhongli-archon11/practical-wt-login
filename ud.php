@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>INAZUMA User details</title>
+       <title>User details</title>
    <style>
 
     fieldset
@@ -29,20 +29,11 @@
     </style>
     </head>
 <body>
-<fieldset>
-        <legend><h2>User Info</h2></legend>
         <table>
                 <tr>
-                    <td>NAME:</td><td><?php echo $_SESSION['name']; ?></td>
-                </tr>
-                <tr>
-                    <td>EMAIL:</td><td><?php echo $_SESSION['email']; ?></td>
-                </tr>
-                <tr>
-                    <td>PASSWORD:</td><td><?php echo "************"; ?></td>
+                    <td>Welcome </td><td><?php echo $_SESSION['name']; ?></td>
                 </tr>
         </table>
-    </fieldset>
     <br><br>
     <a href="logout.php"><center><button type="button" class="button">Logout</button><center></a>
 </body>
