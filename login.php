@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>INAZUMA Login</title>
+    <title>Login Form</title>
     <style type="text/css">
     .error
 		{
@@ -116,7 +116,6 @@
                     {
                         $_SESSION['name'] = $row['NAME'];
                         $_SESSION['email']= $email;
-                        $_SESSION['gender'] = $row['GENDER'];
                         $_SESSION['password'] = $row['uPASSWORD'];
 
 
